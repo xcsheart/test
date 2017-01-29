@@ -1,0 +1,128 @@
+﻿@charset "utf-8";
+/* 初始化 */
+body, ul, ol, li, p, dl, dt, dd, input, form, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+}
+ul {
+	list-style: none;
+}
+body {
+	color: #888;
+	font-size: 12px;
+	line-height: 1.7em;
+}
+a {
+	text-decoration: none;
+	color: #3cb4e4;
+}
+a:hover {
+	text-decoration:none;
+}
+input:focus {
+	outline: none
+}
+.fl {
+	float: left
+}
+.fr {
+	float: right
+}
+.abs {
+	position: absolute
+}
+.rel {
+	position: relative
+}
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+.center{ width:1200px; margin:0 auto;}
+body{background:#ebc7bc;}
+/*以上为初始化代码*/
+/*head*/
+#head .first{width:100%; height:38px; background:#6a3906;}
+#head .first .center .fl p{font-family:"微软雅黑"; font-size:14px; color:#fff; line-height:38px; margin-left:20px;}
+#head .first .center .fl p:hover,#head .first .center .fr ul li a:hover{color:#ee800d;}
+#head .first .center .fr ul li{float:left; margin-left:40px;}
+#head .first .center .fr ul li.left{margin-left:10px;}
+#head .first .center .fr ul li a{font-family:"微软雅黑"; font-size:14px; color:#fff; line-height:38px;}
+/*first end(上)*/
+#head .second{width:100%; height:81px; background:#e6bcac;}
+/*second end(中)*/
+#head .third{width:100%; height:100px; background:#754c24;}
+#head .third .center ul li{float:left; line-height:100px;}
+#head .third .center ul li.pic{position:absolute; left:36%; top:55px; z-index:99;}
+#head .third .center ul li a{font-family:"微软雅黑"; font-size:18px; color:#fff; width:112px; height:100px; display:block; text-align:center;}
+#head .third .center ul li a:hover{background:#fff; color:#754c24;}
+#head .third .center ul li.left{margin-left:525px;}
+/*third end(上)*/
+/*head end*/
+/*banner*/
+#banner{width:1366px; height:389.16px; background:#000;}
+#banner img{width:100%; transition:1s;}
+#banner img:hover{opacity:0.4;}
+/*banner end*/
+/*content*/
+/*about us*/
+#content .abo p{font-family:"微软雅黑"; font-size:18px; color:#754c24; line-height:1.7em; text-align:center;}
+/*about us end*/
+/*店铺*/
+#content .dianpu .con ul{margin-left:65px; position:relative;}
+#content .dianpu .con ul li{float:left; margin:5px 0 0 5px;}
+
+#content .dianpu .con ul .one{width:606px; height:629px; background:url(../images/pro-four.jpg);}
+#content .dianpu .con ul .oneh{width:606px; height:629px; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; opacity:0; transition:1s;}
+#content .dianpu .con ul .oneh:hover{opacity:1;}
+#content .dianpu .con ul .oneh a{width:200px; height:200px; border:3px solid #fff; display:block; text-align:center; line-height:200px; color:#fff; font-family:"微软雅黑"; font-size:18px; margin:203px auto;}
+
+#content .dianpu .con ul .two{width:597px; height:315px; background:url(../images/pro-five.jpg);}
+#content .dianpu .con ul .twoh{width:597px; height:315px; background:rgba(0,0,0,0.7); position:absolute; left:611px; top:0; opacity:0; transition:1s;}
+#content .dianpu .con ul .twoh:hover{opacity:1;}
+#content .dianpu .con ul .twoh a{width:200px; height:100px; border:3px solid #fff; display:block; text-align:center; line-height:100px; color:#fff; font-family:"微软雅黑"; font-size:18px; margin:107px auto;}
+
+#content .dianpu .con ul .three{width:597px; height:309px; background:url(../images/pro-six.jpg);}
+#content .dianpu .con ul .threeh{width:597px; height:309px; background:rgba(0,0,0,0.7); position:absolute; left:611px; top:320px; opacity:0; transition:1s;}
+#content .dianpu .con ul .threeh:hover{opacity:1;}
+#content .dianpu .con ul .threeh a{width:200px; height:100px; border:3px solid #fff; display:block; text-align:center; line-height:100px; color:#fff; font-family:"微软雅黑"; font-size:18px; margin:107px auto;}
+/*店铺 end*/
+/*content end*/
+/*footer*/
+#footer{width:100%; height:130px; background:#754c24;}
+#footer .center ul li{line-height:40px; color:#fff;}
+#footer .center ul li a{font-family:"宋体"; font-size:14px; color:#fff;}
+#footer .center ul li a:hover{color:#9B9B9B;}
+/*footer end*/
+/*top*/
+.go{position:fixed; bottom:16%; right:5%; display:none; z-index:99;}
+/*top end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
